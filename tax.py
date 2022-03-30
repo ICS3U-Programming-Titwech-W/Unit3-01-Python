@@ -10,7 +10,7 @@ import constants
 def main():
     # get user input
     subtotal = float(input("Enter subtotal: $"))
-    
+
     # calculate the tax amount and the total with tax
     tax = subtotal * constants.TAX_RATE_ONTARIO / 100
     total = subtotal + tax
